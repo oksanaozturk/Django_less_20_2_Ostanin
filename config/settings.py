@@ -59,15 +59,6 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'less20_2',
-#         'USER': 'postgres',
-#         'PASSWORD': 'QWErty111'
-#     }
-# }
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {

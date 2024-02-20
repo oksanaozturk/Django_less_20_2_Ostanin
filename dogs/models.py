@@ -25,7 +25,7 @@ class Dog(models.Model):
     birth_day = models.DateField(verbose_name='Дата рождения', **NULLABLE)
 
     def __str__(self):
-        '''Добавляем строковое отображение'''
+        '''Добавляем строковое отображение это будет выводиться на сайте в карточке!'''
         return f' {self.name} ({self.breed})'
 
     class Meta:
