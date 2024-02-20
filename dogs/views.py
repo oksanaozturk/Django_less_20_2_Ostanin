@@ -18,11 +18,3 @@ def dog_info(request, pk):
         'object': dog
     }
     return render(request, 'dogs/dog_info.html', context)
-
-
-# def all_dogs_list(request):
-#     all_dogs = Dog.objects.all()
-#     context = {
-#         'object_list': all_dogs
-#     }
-#     return render(request, 'dogs/inc_menu.html', context)
